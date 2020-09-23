@@ -1,8 +1,8 @@
 ---
-cover: ../assets/img/headers/AutoRemedation_UseCases.png
-description:
+cover: assets/img/headers/AutoRemediation_UseCases.png
+description: Common use cases for automated processes in the software development lifecycle.
 ---
-![PagerDuty](../assets/img/headers/AutoRemedation_UseCases.png)
+![Use Cases](../assets/img/headers/AutoRemediation_UseCases.png)
 
 With the spread of DevOps as a framework for overhauling IT workloads, as well as the increasing popularity of public clouds, automation of various work has become key to successful digital transformation. Cloud platforms offer opportunities for flexibility and developer autonomy, along with complexity, scale, and speed that is difficult to maintain with manual processes.  As more and more technology teams find themselves at the intersection of traditional manual practices and modern API-driven practices, it is necessary to not only build the skills needed for automation, but also to embrace the mindset that automation is a benefit to the overall health of the systems.
 
@@ -14,12 +14,12 @@ Automation can be applied to many facets of a technical project, from building a
 
 When we perform tasks or otherwise make changes to any part of a system, there are some goals we should keep in mind. In Architecting for Scale, Lee Atchison has categorized these goals as the following:
 
-The procedure should be testable
-The procedure should be flexible and implemented for future improvements
-The procedure should be reviewable by someone else as a check
-The procedure should be put under version control
-The procedure should be applicable to related resources, and “one-off” changes should be discouraged, and it should be applied to all related resources in the same way
-The procedure should be repeatable and auditable
+* The procedure should be testable
+* The procedure should be flexible and implemented for future improvements
+* The procedure should be reviewable by someone else as a check
+* The procedure should be put under version control
+* The procedure should be applicable to related resources, and “one-off” changes should be discouraged, and it should be applied to all related resources in the same way
+* The procedure should be repeatable and auditable
 
 While we can potentially satisfy these goals with manual processes, automation codifies the tasks into repeatable processes and ensures they are performed the same way each time they are needed.
 
@@ -38,14 +38,14 @@ Automated build and deployment are often combined into a set of practices known 
 
 Automated deployment isn’t possible for all software. Software that wasn’t designed for automated installs or upgrades might require the acceptance of a license agreement with no option to pre-populate metadata, settings file, or registry entry. It might still require the installer to make selections manually without the aid of a pre-populated inventory or other aid. These installs fail the goals of repeatability and are incredibly difficult to reproduce effectively, making them harder to repair or rebuild when needed.
 
-### Test
+### Software Testing
 Automated testing is a topic all its own. It’s beyond our scope here, but it’s part of the application lifecycle so we’ve included it for completeness.
 
 Various programming languages and frameworks have specific testing paradigms and tooling, but overall, manual testing is a tedious process. With the increasing complexity and volume of software components used in many organizations, manual testing is simply no longer possible or time efficient.
 
 Automated testing can start from the first time a developer saves a file in their text editor, when the editor itself initiates a syntax checker or linter. As a change proceeds through the build process, more tests can be performed, from unit tests to integration tests, depending on the features or services impacted by the change. There’s no chance that a test step will be forgotten if they are all automated.
 
-### Provisioning
+### Environment Provisioning
 The building and maintenance of environments on full systems, virtualized systems, and containers is another area that has been highly automated. For new projects, no one will ever put a warm coat on, walk into a highly air-conditioned data center, roll a “crash cart” with keyboard and mouse up to a rack of servers, and install the OS on them from a CD or DVD, clicking through options and package selections manually, like we did 10 or 15 years ago.
 
 Building infrastructure is susceptible to the challenges we outlined in the introduction. Documentation of the process will rapidly become out of date, mistakes are easy to make, and the repeated tasks required to build out a large environment are tiresome. Automation for the base layers beneath your applications is key to maintaining large-scale production environments, but it is also important for the maintenance of smaller environments. Automating the provisioning of infrastructure ensures that:
@@ -54,4 +54,4 @@ All the like systems in the environment are identical, even if they aren’t bui
 All the systems in the environment will have all the components required in the correct versions
 The systems can be rebuilt to the correct specifications in case of disaster or catastrophic loss
 
-When services run in cloud or Infrastructure as a Service environments, the APIs provided by the vendor also give teams a strong starting point for automated management of services and systems. Tools like HashiCorp’s Terraform, combined with configuration management tools like Chef, Puppet, or Ansible, provide an automated path from first provisioning through preparation for services to actively managing and maintaining services. This path for making planned changes is fairly well understood, and also has a set of testing tools like Test Kitchen and ansible-test to help achieve our goals for testing changes before they are applied to our environments.
+When services run in cloud or Infrastructure as a Service environments, the APIs provided by the vendor also give teams a strong starting point for automated management of services and systems. Tools like [HashiCorp’s Terraform](https://www.terraform.io/), combined with configuration management tools like Chef, Puppet, or Ansible, provide an automated path from first provisioning through preparation for services to actively managing and maintaining services. This path for making planned changes is fairly well understood, and also has a set of testing tools like [Test Kitchen](https://kitchen.ci/) and [ansible-test](https://docs.ansible.com/ansible/latest/dev_guide/testing.html) to help achieve our goals for testing changes before they are applied to our environments.

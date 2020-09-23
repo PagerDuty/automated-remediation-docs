@@ -1,9 +1,9 @@
 ---
-cover:
-description:
+cover: assets/img/headers/AutoRemediation_AutoIR.png
+description: Creating automation for common alerts and incidents will help your team manage potential alert fatigue.
 ---
-![PagerDuty]()
-Automation for Incident Remediation
+![Automation for Incident Remediation](../assets/img/headers/AutoRemediation_AutoIR.png)
+
 Responding to incidents and alerts presents opportunities for automation in some environments as well. While we find automation in the creation steps of technical products, it is less common in the longer term maintenance of the systems. Automation improves the health of our running systems and can help us better manage the issues that arise. When considering automation for incident remediation, keep in mind that in complex systems, failure is inevitable. Our automation goals at this stage aren’t to prevent failures, but to swiftly deal with failure when it happens and optimize for it as much as possible.
 
 Creating monitoring and health-checks for production systems is fairly ubiquitous since organizations that don’t count IT as a customer product space still heavily rely on IT services to be functional and performative. As long as all services are up and running, everything is fine. When something goes wrong, what happens next could be chaos or it could be a well-managed practice of contacting responders and remediating issues. Automation can be employed from the first blip or hiccup, including how the correct team is contacted, how they are able to respond, and whether there is additional infrastructure to support troubleshooting and remediation. More efficiency and the intentional use of automation in even these early phases of remediation reduce the time it takes to acknowledge and repair issues that arise.
@@ -27,7 +27,3 @@ We also want to use automation when the solution should be faster than a human c
 Machines are faster than humans at some tasks, and they don’t mind work that is boring and repetitive. As we build automation, we focus on the tasks with the most toil; i.e., those that require humans to do a lot of work, but work that is relatively low value. Those are the tasks that can be completed by automated processes.
 
 Automation will help a team respond to incidents in a predictable and defined way. Your team may already be using documentation or guides like runbooks that prescribe the steps to take to remediate an issue. Where those runbooks can be performed by automation, fewer distractions and alerts will go to the human responders. Particularly for remediation tasks that are low value, like restarting services or clearing disk space, this work is better allocated to automation. The automation can then also be applied to multiple sets of similar systems.
-
-
-!!! tip
-This is a tip or callout-section

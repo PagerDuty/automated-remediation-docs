@@ -1,20 +1,20 @@
 ---
-cover:
-description:
+cover: assets/img/headers/AutoRemediation_Resources.png
+description: Some additional resources you might find helpful during your automation journey.
 ---
-![PagerDuty]()
+![Resources](../assets/img/headers/AutoRemediation_Resources.png)
 
-### Videos
+## Videos
 Allspaw, John. Taking Human Performance Seriously in Software. Monitorama Conference, 2019. https://vimeo.com/341144396
 
 
-### Papers
+## Papers
 Bainbridge, Lisanne. “Ironies of Automation”. *Automatica*, Vol. 19 No. 6 pp 775-779, 1983. International Federation of Automated Control.
 
 
 Strauch, Barry. “Ironies of Automation: Still Unresolved After All These Years”. *IEEE Transactions on Human-Machine Systems*. August 2017. Pp 1-15.
 
-### Books
+## Books
 
 Atchison, Lee. _Architecting For Scale, 2nd Edition_. O'Reilly, 2020.
 
