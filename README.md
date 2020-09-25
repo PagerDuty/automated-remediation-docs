@@ -1,6 +1,6 @@
 # PagerDuty Automated Remediation for Incident Response Documentation
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c88ee9c2-f513-49a2-a3b9-de8458ca229b/deploy-status)](https://app.netlify.com/sites/ownership-dbd0d9/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/57a66052-97e1-4199-9631-fe3e696902d3/deploy-status)](https://app.netlify.com/sites/autoremediation-9ffcc6/deploys)
 
 TODO
 
