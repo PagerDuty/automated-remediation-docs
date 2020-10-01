@@ -2,11 +2,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/57a66052-97e1-4199-9631-fe3e696902d3/deploy-status)](https://app.netlify.com/sites/autoremediation-9ffcc6/deploys)
 
-TODO
+Automation is a primary tool for creating, deploying, and maintaining technical infrastructure. It is also useful for ensuring the reliability and repeatability of tasks used during the Incident Response and Remediation process. This guide contains a collection of tips and practices for creating, deploying, and maintaining useful automation for your technical environments.
 
 You can view the documentation directly in this repository, or rendered as a website at https://autoremediation.pagerduty.com.
 
-[![PagerDuty Automated Remediation for Incident Response](coming_soon.png)](https://autoremediation.pagerduty.com)
+[![PagerDuty Automated Remediation for Incident Response](screenshot.png)](https://autoremediation.pagerduty.com)
 
 ## Development
 We use [MkDocs](http://www.mkdocs.org/) to create a static site from this repository. For local development,
