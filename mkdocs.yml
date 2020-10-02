@@ -42,7 +42,7 @@ pages:
   - Resources and Further Reading: 'resources.md'
 
 # Analytics
-#google_analytics: ['UA-8759953-1', 'auto']
+google_analytics: ['UA-8759953-1', 'auto']
 
 # Extensions
 markdown_extensions:
