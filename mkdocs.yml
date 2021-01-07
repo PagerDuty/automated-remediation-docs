@@ -35,11 +35,13 @@ pages:
   - Home: 'index.md'
   - Introduction: 'introduction.md'
   - Use Cases for Automation in IT: 'use_cases.md'
-  - Automation for Incident Remediation: 'automation_ir.md'
-  - Getting Started with Automation for Incident Remediation: 'getting_started.md'
+  - Automating the Response Process: 'ir_workflows.md'
+  - Automation for Incident Resolution: 'automation_ir.md'
+  - Getting Started: 'getting_started.md'
+  - Regulated Environments: 'regulated_envs.md'
   - Challenges of Automation: 'challenges.md'
-  - Conclusion: 'conclusion.md'
-  - Resources and Further Reading: 'resources.md'
+  - Additional Resources: 'resources.md'
+
 
 # Analytics
 google_analytics: ['UA-8759953-1', 'auto']
