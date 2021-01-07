@@ -1,8 +1,5 @@
----
-cover: assets/img/headers/AutoRemediation_GettingStarted.png
-description: Some tips for getting started with building automation specifically for incident response.
----
-![Getting Started](../assets/img/headers/AutoRemediation_GettingStarted.png)
+
+![Getting Started](../assets/img/headers/AR_GettingStarted.png)
 
 We can take a multistage approach for implementing automated remediation in our production systems:
 ![automationevolution image](../assets/img/automation_evolution.png)
