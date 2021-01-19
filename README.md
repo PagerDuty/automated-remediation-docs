@@ -6,7 +6,7 @@ Automation is a primary tool for creating, deploying, and maintaining technical 
 
 You can view the documentation directly in this repository, or rendered as a website at https://autoremediation.pagerduty.com.
 
-[![PagerDuty Automated Remediation for Incident Response](screenshot.png)](https://autoremediation.pagerduty.com)
+[![PagerDuty Automated Remediation for Incident Response](assets/img/screenshot.png)](https://autoremediation.pagerduty.com)
 
 ## Development
 We use [MkDocs](http://www.mkdocs.org/) to create a static site from this repository. For local development,
