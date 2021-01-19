@@ -16,7 +16,7 @@ In this section, we’ll break down the incident response process into four sect
 1. **Business communication**: Keeping stakeholders informed in a timely manner
 1. **Automation of remediation**: Fixing the things that can be fixed automatically
 
-If your team is just getting started with incident response, you’ll find more detailed documentation in our other Ops Guides, [Incident Response](https://response.pagerduty.com) and [Stakeholder Communications](https://stakeholder.pagerduty.com).
+If your team is just getting started with incident response, you’ll find more detailed documentation in our other Ops Guides, [Incident Response](https://response.pagerduty.com) and [Stakeholder Communications](https://stakeholders.pagerduty.com).
 
 ### Team Alerting and Orchestration
 If your organization has been operating in a more traditional model with a Network Operations Center (NOC) staffed by technicians around the clock, the task of notifying and coordinating responders may fall to that team. When technical systems expand and become more complex, the job of finding and notifying responders can slow down as the NOC technicians search for the right teams, the on-call responder for those teams, and that person’s contact information.
