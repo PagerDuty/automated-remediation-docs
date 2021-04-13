@@ -1,5 +1,5 @@
 
-![Automation for Incident Remediation](../assets/img/headers/AR_IR.png)
+![Automation for Incident Remediation](/assets/images/headers/AR_IR.png)
 
 Responding to incidents and alerts presents opportunities for automation in some environments as well. While we find automation in the creation steps of technical products, it is less common in the longer term maintenance of the systems. Automation improves the health of our running systems and helps us better manage issues that arise. When considering automation for incident remediation, keep in mind that in complex systems, failure is inevitable. Our automation goals at this stage aren’t to prevent failures, but to swiftly deal with failure when it happens and optimize for it as much as possible.
 

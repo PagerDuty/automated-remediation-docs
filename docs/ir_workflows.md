@@ -1,11 +1,11 @@
-![Workflows](../assets/img/headers/AR_Workflows.png)
+![Workflows](/assets/images/headers/AR_Workflows.png)
 
 When an incident occurs, everyone wants to be able to call the expert, but your experts might be elsewhere—on vacation, commuting, or just unavailable. When that happens, you can use automation to borrow their expertise. Team SMEs (subject matter experts) who create automation are building artifacts for the rest of the team to use when they’re not around; their knowledge goes into some code instead of staying locked away in their heads. Encouraging your experts to automate the tasks they would use in response to incidents means they can be alerted less frequently, and more members of the team will have the tools they need to solve issues appropriately.
 
 Your workflows for responding to incidents and unplanned work will contain some of the tasks that your regular, planned work incorporates. When you find parts of your workflow that can be automated, consider using automation to reduce mean time to recover (MTTR), alert fatigue, and toil.
 
 When considering automating these workflows, we find many team automation projects follow these **five** phases:
-![automationevolution image](../assets/img/automation_evolution.png)
+![automationevolution image](/assets/images/automation_evolution.png)
 
 You’ll still want to automate the tasks that happen the most often so your automation development is giving you the best return on investment. Determining what steps are valuable to automate might be challenging at first if your team doesn’t have a mature set of monitors and alerts to draw from. Your long-term alert and incident trends will lead you to the best candidates for automated remediation.
 
@@ -21,7 +21,7 @@ If your team is just getting started with incident response, you’ll find more 
 ### Team Alerting and Orchestration
 If your organization has been operating in a more traditional model with a Network Operations Center (NOC) staffed by technicians around the clock, the task of notifying and coordinating responders may fall to that team. When technical systems expand and become more complex, the job of finding and notifying responders can slow down as the NOC technicians search for the right teams, the on-call responder for those teams, and that person’s contact information.
 
-Automating this part of the alert process is a first step toward reducing response and mobilization times. When an alert is triggered in your monitoring systems that needs intervention from a human responder, automation will link the alerting service to the owning team and that team’s on-call responder. To learn how to accomplish this in PagerDuty, visit this [Knowledge Base Checklist](https://pagerduty.influitive.com/forum/t/the-onboarding-checklist/1522) and follow the walkthrough for setting up responders, teams, schedules, and services.  
+Automating this part of the alert process is a first step toward reducing response and mobilization times. When an alert is triggered in your monitoring systems that needs intervention from a human responder, automation will link the alerting service to the owning team and that team’s on-call responder. To learn how to accomplish this in PagerDuty, visit this [Knowledge Base Checklist](https://pagerduty.influitive.com/forum/t/the-onboarding-checklist/1522) and follow the walkthrough for setting up responders, teams, schedules, and services.
 
 Once your responders have been alerted, they will need a place to communicate. This might be over SMS, phone, video conference, or a chat tool. The creation of a communications hub during an incident can also be automated so when the incident is started, all team members and potential responders will know where to go and how to access the communication channels. If your work platforms provide APIs, your incident response workflow can also include the creation of the channels or calls that your team will need to coordinate the incident response. Automating this step alleviates the risk that someone will have or be given the wrong information, delay their response time, or that the person creating the channel won’t have the appropriate account or permissions.
 
