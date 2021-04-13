@@ -1,5 +1,5 @@
 
-![Challenges](../assets/img/headers/AR_Challenges.png)
+![Challenges](/assets/images/headers/AR_Challenges.png)
 
 Automation has quite a history, starting in the early days of the Industrial Revolution. When weavers and textile workers were faced with the realities of new machinery, they worried that their hard-won skills and craftsmanship would no longer be needed, and some banded together to destroy machines. We still use their name, Luddites, to refer to people who are reluctant to use or are hesitant around technology. For more than 200 years, processes and human work have become increasingly automated in many industries, from electrical power generating, to aerospace, to shipping, to IT.
 

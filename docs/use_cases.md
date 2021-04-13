@@ -1,5 +1,5 @@
 
-![Use Cases](../assets/img/headers/AR_UseCases.png)
+![Use Cases](/assets/images/headers/AR_UseCases.png)
 
 With the spread of DevOps as a framework for overhauling IT workloads and the increasing popularity of public clouds, the automation of various work has become key to a successful digital transformation. Cloud platforms offer opportunities for flexibility and developer autonomy, along with complexity, scale, and speed that is difficult to maintain with manual processes.  As more and more technology teams find themselves at the intersection of traditional, manual practices and modern, API-driven practices, it is necessary to not only build the skills needed for automation, but also to embrace the mindset that automation is a benefit to the overall health of the systems.
 

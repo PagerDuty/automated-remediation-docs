@@ -1,5 +1,5 @@
 
-![PagerDuty](../assets/img/headers/AR_Home.png)
+![PagerDuty](/assets/images/headers/AR_Home.png)
 
 Automation is a key component in the management of complex, modern IT systems. Automation helps teams avoid mistakes, increase reliability, and reduce toil in their day-to-day tasks. While building a production environment might rely on a number of automation tools, the lifecycle of that environment will include unplanned incidents and other work that often is performed manually.
 

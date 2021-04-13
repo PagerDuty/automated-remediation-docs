@@ -1,5 +1,5 @@
 
-![Introduction](../assets/img/headers/AR_Intro.png)
+![Introduction](/assets/images/headers/AR_Intro.png)
 
 Automation has become a key competency for modern IT teams. The proliferation of platforms, tools, and contexts for developing, testing, and running applications creates a near-infinite number of toolset combinations. Each tool requires expertise to use well and that knowledge needs to be preserved, evaluated, and learned from over time. This process can be difficult if all the processes are manual. While teams have become comfortable with the automation of certain steps in their workflows (like building software or performing some testing), teams are often slow to apply much automation to the operational part of the software delivery lifecycle.
 

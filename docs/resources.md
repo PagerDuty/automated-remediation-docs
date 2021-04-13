@@ -1,5 +1,5 @@
 
-![Resources](../assets/img/headers/AR_Resources.png)
+![Resources](/assets/images/headers/AR_Resources.png)
 
 Deploying automation helps your team reduce toil and creates space for innovation that would otherwise be used to respond to unplanned work.
 

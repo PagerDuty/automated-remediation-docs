@@ -2,8 +2,7 @@
 site_name: PagerDuty Automation for Incident Remediation Documentation
 site_description: A discussion of the uses of automation in IT and its application to Incident Remediation. This guide is to help teams who want to use automation in the service of resolving incidents.
 site_author: PagerDuty, Inc.
-site_favicon: 'assets/img/favicon.png'
-site_url: https://autoremediation.pagerduty.com
+site_url: https://autoremediation.pagerduty.com/
 
 # Repository
 repo_url: https://github.com/PagerDuty/automated-remediation-docs
@@ -12,26 +11,12 @@ repo_url: https://github.com/PagerDuty/automated-remediation-docs
 copyright: 'Copyright &copy; PagerDuty, Inc.'
 
 # Theme
-theme: 'material'
-theme_dir: 'theme'
-extra_css: ['assets/css/pagerduty.css','assets/css/custom.css']
-extra_javascript: ['js/github_forks.js']
-extra:
-  favicon: 'assets/img/favicon.png'
-  logo: 'assets/img/icon.png'
-  cover: 'assets/img/covers/default.png'
-  palette:
-    primary: 'green'
-    accent: 'blue grey'
-  author:
-    github: 'PagerDuty'
-    twitter: 'PagerDuty'
-
-# Dev URL
-dev_addr: '0.0.0.0:8080'
+theme:
+  name: pagerduty
+  title: 'Automation for Incident Response'
 
 # Contents
-pages:
+nav:
   - Home: 'index.md'
   - Introduction: 'introduction.md'
   - Use Cases for Automation in IT: 'use_cases.md'
@@ -41,7 +26,6 @@ pages:
   - Regulated Environments: 'regulated_envs.md'
   - Challenges of Automation: 'challenges.md'
   - Additional Resources: 'resources.md'
-
 
 # Analytics
 google_analytics: ['UA-8759953-1', 'auto']
@@ -57,3 +41,9 @@ markdown_extensions:
   - pymdownx.extra:
   - pymdownx.mark:
   - pymdownx.tilde:
+  - pymdownx.highlight:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+
+# Development URL, bind to local only.
+dev_addr: '127.0.0.1:8000'

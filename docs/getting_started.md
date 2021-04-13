@@ -1,9 +1,9 @@
 
-![Getting Started](../assets/img/headers/AR_GettingStarted.png)
+![Getting Started](/assets/images/headers/AR_GettingStarted.png)
 
 We can take a multistage approach for implementing automated remediation in our production systems:
-![automationevolution image](../assets/img/automation_evolution.png)
-Automation should be reliable and consistent, so as we build out our automation, we’ll also want to keep these goals in mind:  
+![automationevolution image](/assets/images/automation_evolution.png)
+Automation should be reliable and consistent, so as we build out our automation, we’ll also want to keep these goals in mind:
 
 * The procedure should be testable
 * The procedure should be flexible and implemented for future improvements
@@ -22,14 +22,14 @@ Before even thinking about automating processes, take a long, hard look at the a
 Round 1 of automating incident response is to ensure the alerts that are coming through are useful and can be fixed in the production environment. You can find more guidance on creating useful alerts in our Ops Guide on Incident Response. Good alerts will contain an appropriate amount of useful information about the impacted system. They’ll be rated in line with their impact on users. And they’ll be something that can be remediated in production under normal conditions. If your systems generate alerts that can’t be fixed via changes to the production environment, send them back to engineering. For example, when moving to a distributed services model in a cloud, you might see a need to increase the timeouts for requests to remote services. This is an expected performance tradeoff for the architectural change, and the timeout for those types of requests often needs to be increased.
 
 ## Identify Candidate Workflows
-Once you have the alerts cleaned up, take a look at the data you have on the number of alerts that fire, when they occur, and what their impacts are. This will give you candidates that will have the most impact on your responders when you create automated remediation. Create a list of potential alerts that can be automatically remediated based on their volume or simplicity. Potential candidates for your first round of automation might be alerts for single subsystem issues, like disk space warnings, or alerts that already have a manual runbook that can be automated.  
+Once you have the alerts cleaned up, take a look at the data you have on the number of alerts that fire, when they occur, and what their impacts are. This will give you candidates that will have the most impact on your responders when you create automated remediation. Create a list of potential alerts that can be automatically remediated based on their volume or simplicity. Potential candidates for your first round of automation might be alerts for single subsystem issues, like disk space warnings, or alerts that already have a manual runbook that can be automated.
 
 ## Evolving Automation Components
 Your first automated remediation targets should be well defined and well contained. Part of building up trust in your automation tools will come from creating cumulative successes, so start with a small collection of alerts to automate. Keeping the first set all within a single team of responders can help with training and communication.
 
 Use your data set to determine the performance of your automation efforts. Ask yourself questions like:
 
-* Is the team seeing a **reduction in alerts**? 
+* Is the team seeing a **reduction in alerts**?
 * Are incidents still getting **resolved in a timely and correct manner**?
 * Has there been any **negative impact** to the customer?
 * Have you **reduced the amount of toil** the team is required to do on a daily basis to support the services?
