@@ -8,7 +8,7 @@ Our automation needs to fit snugly into the application lifecycle; in some cases
 There are many areas where automation can help your team. These resources can help you think about where automation makes the most impact.
 
 ## Videos
-Allspaw, John. Taking Human Performance Seriously in Software. Monitorama Conference, 2019. [https://vimeo.com/341144396](https://vimeo.com/341144396)
+Allspaw, John. Taking Human Performance Seriously in Software. Monitorama Conference, 2019. [https://www.youtube.com/watch?v=ND5AUkHrec8&list=PLZgKfFadVM0mrWuVL6H9P3j5MhWUizXOB&index=1](https://www.youtube.com/watch?v=ND5AUkHrec8&list=PLZgKfFadVM0mrWuVL6H9P3j5MhWUizXOB&index=1)
 
 
 ## Papers
