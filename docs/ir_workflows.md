@@ -16,12 +16,12 @@ In this section, we’ll break down the incident response process into four sect
 1. **Business communication**: Keeping stakeholders informed in a timely manner
 1. **Automation of remediation**: Fixing the things that can be fixed automatically
 
-If your team is just getting started with incident response, you’ll find more detailed documentation in our other Ops Guides, [Incident Response](https://response.pagerduty.com) and [Stakeholder Communications](https://stakeholder.pagerduty.com).
+If your team is just getting started with incident response, you’ll find more detailed documentation in our other Ops Guides, [Incident Response](https://response.pagerduty.com) and [Stakeholder Communications](https://stakeholders.pagerduty.com).
 
 ### Team Alerting and Orchestration
 If your organization has been operating in a more traditional model with a Network Operations Center (NOC) staffed by technicians around the clock, the task of notifying and coordinating responders may fall to that team. When technical systems expand and become more complex, the job of finding and notifying responders can slow down as the NOC technicians search for the right teams, the on-call responder for those teams, and that person’s contact information.
 
-Automating this part of the alert process is a first step toward reducing response and mobilization times. When an alert is triggered in your monitoring systems that needs intervention from a human responder, automation will link the alerting service to the owning team and that team’s on-call responder. To learn how to accomplish this in PagerDuty, visit this [Knowledge Base Checklist](https://pagerduty.influitive.com/forum/t/the-onboarding-checklist/1522) and follow the walkthrough for setting up responders, teams, schedules, and services.
+Automating this part of the alert process is a first step toward reducing response and mobilization times. When an alert is triggered in your monitoring systems that needs intervention from a human responder, automation will link the alerting service to the owning team and that team’s on-call responder. To learn how to accomplish this in PagerDuty, visit our [Getting Started Guide](https://support.pagerduty.com/main/docs/trial-account-onboarding) and follow the walkthrough for setting up responders, teams, schedules, and services.
 
 Once your responders have been alerted, they will need a place to communicate. This might be over SMS, phone, video conference, or a chat tool. The creation of a communications hub during an incident can also be automated so when the incident is started, all team members and potential responders will know where to go and how to access the communication channels. If your work platforms provide APIs, your incident response workflow can also include the creation of the channels or calls that your team will need to coordinate the incident response. Automating this step alleviates the risk that someone will have or be given the wrong information, delay their response time, or that the person creating the channel won’t have the appropriate account or permissions.
 
@@ -53,9 +53,6 @@ Your team can automate various pieces of your communications plan, including:
 * Adding a function to your communications channel to send updates without having to log into specific accounts directly
 
 Any of these automated actions will improve your team’s response practices and help you keep your users and stakeholders informed during an incident. Various tools exist to integrate with your workflow. Your team might already be using similar methods for what has been termed “ChatOps” — using shortcuts to send instructions to APIs and other tools. You could be halfway to automated communications already.
-
-!!! tip
-    How you keep stakeholders informed is an important component of your incident response. Learn more about how [Smartsheet](https://www.smartsheet.com/) evolved their communications in an episode of our podcast, [Page it to the Limit](https://www.pageittothelimit.com/incident-communications-with-alina-anderson/).
 
 
 Streamlining communications with automation keeps all of your responders engaged in solving problems rather than dealing with answering questions. To further help your team manage communications, consider creating [customer liaisons](https://response.pagerduty.com/training/customer_liaison/) and [internal liaisons](https://response.pagerduty.com/training/internal_liaison/) to be responsible for updates.
